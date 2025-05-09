@@ -7,6 +7,8 @@ Download `tosu-ingame-overlay-portable.exe`.
 Ingame config is not working yet, go to `http://localhost:24050/api/ingame` for configuration.
 Exit or reload overlay using tray icon.
 
+Overlay library used under this project: [asdf-overlay](https://github.com/storycraft/asdf-overlay)
+
 TBA
 
 ## Performance
