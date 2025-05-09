@@ -11,8 +11,8 @@ It have same or less performance overhead than adding a OBS browser source.
 Which is very small and also have no noticeable input latency.
 
 ### Comparison (has gameplay audio)
-1. [Stock tosu ingame overlay](https://www.youtube.com/4Sm1Rucjrgw)
-2. [This project](https://www.youtube.com/watch/embed/6rsQ6_xVa8U)
+1. [Stock tosu ingame overlay](https://www.youtube.com/watch?v=4Sm1Rucjrgw)
+2. [This project](https://www.youtube.com/watch?v=6rsQ6_xVa8U)
 
 ## Development
 ```
