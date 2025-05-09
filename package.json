@@ -1,0 +1,74 @@
+{
+  "name": "tosu-overlay",
+  "version": "0.1.0",
+  "description": "High performance tosu ingame overlay",
+  "private": true,
+  "main": "./dist/main/index.js",
+  "scripts": {
+    "build": "electron-vite build",
+    "dev": "electron-vite dev",
+    "dist": "npm run build && electron-builder --windows"
+  },
+  "keywords": [],
+  "author": "storycraft <storycraft@pancake.sh>",
+  "homepage": "https://github.com/storycraft/tosu-overlay#readme",
+  "bugs": {
+    "url": "https://github.com/storycraft/tosu-overlay/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storycraft/tosu-overlay"
+  },
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@jellybrick/wql-process-monitor": "^1.4.8",
+    "asdf-overlay-node": "file:..\\electron-win-overlay\\asdf-overlay-node-0.2.4.tgz",
+    "find-process": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@types/node": "^22.15.14",
+    "electron": "^36.1.0",
+    "electron-builder": "^26.0.12",
+    "electron-vite": "^3.1.0",
+    "emittery": "^1.1.0",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.3",
+    "eslint-plugin-prettier": "^5.4.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0"
+  },
+  "build": {
+    "productName": "tosu-ingame-overlay",
+    "asar": true,
+    "files": [
+      "dist"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "./asset/tosu.ico"
+    },
+    "portable": {
+      "artifactName": "tosu-ingame-overlay-portable.exe"
+    },
+    "directories": {
+      "output": "./pack/",
+      "app": "."
+    },
+    "publish": {
+      "provider": "github"
+    }
+  },
+  "os": [
+    "win32"
+  ],
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
+}
