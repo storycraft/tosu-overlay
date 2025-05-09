@@ -3,6 +3,8 @@ High performance [tosu](https://github.com/tosuapp/tosu) fullscreen ingame overl
 
 Supports OpenGL(stable, lazer), dx9(stable compat), dx11(lazer)
 
+Disable stock ingame overlay before using it.
+
 Download `tosu-ingame-overlay-portable.exe`.
 Ingame config is not working yet, go to `http://localhost:24050/api/ingame` for configuration.
 Exit or reload overlay using tray icon.
