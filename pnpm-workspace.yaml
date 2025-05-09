@@ -3,5 +3,3 @@ onlyBuiltDependencies:
   - '@jellybrick/ref-napi'
   - electron
   - esbuild
-overrides:
-  asdf-overlay-node: link:../electron-win-overlay

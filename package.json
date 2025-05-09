@@ -22,7 +22,7 @@
   "license": "GPL-3.0-only",
   "dependencies": {
     "@jellybrick/wql-process-monitor": "^1.4.8",
-    "asdf-overlay-node": "file:..\\electron-win-overlay\\asdf-overlay-node-0.2.4.tgz",
+    "asdf-overlay-node": "^0.3.0",
     "find-process": "^1.4.10"
   },
   "devDependencies": {
