@@ -1,7 +1,8 @@
 # `tosu-ingame-overlay`
 > [!NOTE]
 > This project is being adopted to official tosu overlay.
-> This project will not be updated further. Please use stock tosu overlay instead.
+> 
+> Project will not be updated further. Please use stock tosu overlay instead.
 
 High performance [tosu](https://github.com/tosuapp/tosu) fullscreen ingame overlay
 
